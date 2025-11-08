@@ -31,10 +31,18 @@ Technologies Used:
 - Frontend: HTML, CSS, JavaScript,Tailvent css.
 
 Installation Steps:
-1. Download or clone the project folder in this link .
-2. in live projec to used dummy login detial john@example.com , password is 12345
-3. Open your browser and visit:
-   http://localhost/fastag/
+
+Download or clone the project .
+
+Open the project in your code editor (e.g., VS Code).
+
+Launch the project by opening the file index.html in your browser.
+
+For live demo, use dummy login credentials:
+https://piyush-amola.github.io/fastag/
+Email: john@example.com
+
+Password: 12345
 
 Default Login Details:
 if user is regtion thi login to this.
@@ -42,7 +50,6 @@ if user is regtion thi login to this.
 
 Output Screens (Suggested):
 - Login Page
-- Dashboard (User)
 - Recharge Page
 
 
