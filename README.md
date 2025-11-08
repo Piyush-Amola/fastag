@@ -31,7 +31,7 @@ Technologies Used:
 - Frontend: HTML, CSS, JavaScript,Tailvent css.
 
 Installation Steps:
-1. Download or clone the project folder.
+1. Download or clone the project folder in this link .
 2. in live projec to used dummy login detial john@example.com , password is 12345
 3. Open your browser and visit:
    http://localhost/fastag/
