@@ -32,7 +32,7 @@ Technologies Used:
 
 Installation Steps:
 
-Download or clone the project .
+Download or clone the project (https://github.com/Piyush-Amola/fastag.git) .
 
 Open the project in your code editor (e.g., VS Code).
 
@@ -44,9 +44,7 @@ Email: john@example.com
 
 Password: 12345
 
-Default Login Details:
-if user is regtion thi login to this.
-- Register a new account to access user dashboard.
+
 
 Output Screens (Suggested):
 - Login Page
@@ -54,7 +52,4 @@ Output Screens (Suggested):
 
 
 Developed By:
-Your Name
-Department of Computer Science
-(Your College Name)
-Session: 2024–2025
+Piyush
