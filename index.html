@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FASTag Recharge | Logiclead</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="bg-gray-50 text-gray-800 font-[Inter]">
+    <!-- Navbar -->
+    <header class="bg-white shadow sticky top-0 z-10">
+      <div
+        class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-2xl font-bold text-blue-600">FASTag Recharge</h1>
+        <!-- Hamburger Menu for Mobile -->
+        <div class="md:hidden">
+          <button id="menu-btn" class="text-gray-800 focus:outline-none">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+        <!-- Menu Links -->
+        <nav id="menu" class="hidden md:flex space-x-4">
+          <a href="#features" class="hover:text-blue-600">Features</a>
+          <a href="#providers" class="hover:text-blue-600">Providers</a>
+          <a href="#about" class="hover:text-blue-600">About</a>
+          <a href="#faq" class="hover:text-blue-600">FAQ</a>
+          <a href="#testimonials" class="hover:text-blue-600">Reviews</a>
+          <a
+            href="login.html"
+            class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+            >Login</a
+          >
+        </nav>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+        <a href="#features" class="block py-2 hover:text-blue-600">Features</a>
+        <a href="#providers" class="block py-2 hover:text-blue-600"
+          >Providers</a
+        >
+        <a href="#about" class="block py-2 hover:text-blue-600">About</a>
+        <a href="#faq" class="block py-2 hover:text-blue-600">FAQ</a>
+        <a href="#testimonials" class="block py-2 hover:text-blue-600"
+          >Reviews</a
+        >
+        <a
+          href="login.html"
+          class="block bg-blue-600 text-white px-4 py-2 rounded-md mt-2 hover:bg-blue-700 transition"
+          >Login</a
+        >
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white"
+    >
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 fade-in">
+        Instant FASTag Recharge
+      </h2>
+      <p class="text-base sm:text-lg md:text-xl mb-8 fade-in">
+        Recharge your vehicle FASTag in just seconds — anytime, anywhere.
+      </p>
+      <a
+        href="login.html"
+        class="bg-white text-blue-600 font-semibold px-6 sm:px-8 py-3 rounded-full shadow hover:bg-gray-100 transition"
+      >
+        Get Started Now
+      </a>
+
+      <div class="mt-12">
+        <img
+          src="https://tse3.mm.bing.net/th/id/OIP.rqdHxOSSP-oHUQNTdX24yQHaCp?pid=Api&P=0&h=180"
+          alt="FASTag Recharge Banner"
+          class="mx-auto rounded-xl shadow-lg w-full sm:w-3/4 md:w-1/2 max-w-full fade-in"
+        />
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="max-w-7xl mx-auto py-16 px-4 sm:px-6">
+      <h3
+        class="text-2xl sm:text-3xl font-bold text-center mb-10 text-gray-800"
+      >
+        Why Choose FASTag Recharge?
+      </h3>
+      <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-3">
+        <div
+          class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition fade-in"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3143/3143643.png"
+            alt="Fast & Secure Payments"
+            class="w-12 mb-4"
+          />
+          <h4 class="font-semibold text-lg mb-2">Fast & Secure Payments</h4>
+          <p>Lightning-fast recharges with high security and reliability.</p>
+        </div>
+
+        <div
+          class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition fade-in"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/565/565547.png"
+            alt="Track Transactions"
+            class="w-12 mb-4"
+          />
+          <h4 class="font-semibold text-lg mb-2">Track Transactions</h4>
+          <p>View your recharge and balance history in one dashboard.</p>
+        </div>
+
+        <div
+          class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition fade-in"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/639/639365.png"
+            alt="Simple Interface"
+            class="w-12 mb-4"
+          />
+          <h4 class="font-semibold text-lg mb-2">Simple Interface</h4>
+          <p>Clean and responsive design — recharge in seconds hassle-free.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Providers Section -->
+    <section id="providers" class="bg-blue-50 py-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+        <h3 class="text-2xl sm:text-3xl font-bold mb-10 text-gray-800">
+          Our FASTag Partners
+        </h3>
+        <div
+          id="providerList"
+          class="grid gap-8 sm:grid-cols-1 md:grid-cols-3"
+        ></div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="py-16 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="flex flex-col lg:flex-row items-center gap-8">
+          <div id="aboutText" class="lg:w-1/2 text-center lg:text-left"></div>
+          <div class="lg:w-1/2 text-center">
+            <img
+              id="aboutImage"
+              src=""
+              alt="About FASTag Recharge"
+              class="mx-auto rounded-lg shadow-lg w-full max-w-md"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="bg-white py-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <h3
+          class="text-2xl sm:text-3xl font-bold text-center mb-10 text-gray-800"
+        >
+          Frequently Asked Questions
+        </h3>
+        <div id="faqList" class="space-y-4"></div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section
+      id="testimonials"
+      class="max-w-6xl mx-auto py-16 px-4 sm:px-6 text-center"
+    >
+      <h3 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-10">
+        What Our Users Say
+      </h3>
+      <div
+        id="testimonialList"
+        class="grid gap-8 sm:grid-cols-1 md:grid-cols-3"
+      ></div>
+    </section>
+
+    <!-- App Download Section -->
+    <section class="py-12 bg-white text-center">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6">Download the App</h2>
+        <p class="mb-8 text-gray-700 max-w-xl mx-auto">
+          Recharge your FASTag anytime, anywhere with our mobile app — fast,
+          secure, and convenient.
+        </p>
+
+        <div class="mb-8">
+          <img
+            src="https://logiclead.in/assets/img/banking_logo/rechargeicon_20240803130432465829.jpg"
+            alt="Logiclead App Preview"
+            class="max-w-xs sm:max-w-sm lg:max-w-md mx-auto rounded shadow-lg"
+          />
+        </div>
+
+        <div class="flex justify-center gap-4 flex-wrap">
+          <a
+            href="#"
+            class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+              alt="Download on Google Play"
+              class="h-10"
+            />
+          </a>
+          <a
+            href="#"
+            class="inline-block bg-black text-white px-6 py-3 rounded-lg shadow hover:bg-gray-900 transition"
+          >
+            <img
+              src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+              alt="Download on App Store"
+              class="h-10"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-blue-600 text-white py-16 text-center">
+      <h3 class="text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+        Ready for Seamless FASTag Recharge?
+      </h3>
+      <p class="mb-6 text-blue-100">
+        Join thousands who trust FASTag Recharge daily.
+      </p>
+      <a
+        href="login.html"
+        class="bg-white text-blue-600 px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
+      >
+        Recharge Now →
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow mt-12">
+      <div class="max-w-6xl mx-auto text-center py-6 text-gray-500 text-sm">
+        © 2025 FASTag Recharge by Logiclead. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
