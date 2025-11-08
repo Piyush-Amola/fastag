@@ -1,0 +1,41 @@
+{
+  "john@example.com": {
+    "balance": 1200,
+    "vehicles": [
+      { "number": "UK07AB1234", "tag": "FAST1234" },
+      { "number": "DL08CD5678", "tag": "FAST5678" }
+    ],
+    "transactions": [
+      {
+        "date": "2025-11-01",
+        "vehicle": "UK07AB1234",
+        "amount": "250",
+        "status": "Success"
+      },
+      {
+        "date": "2025-10-25",
+        "vehicle": "DL08CD5678",
+        "amount": "150",
+        "status": "Success"
+      }
+    ]
+  },
+  "admin@logiclead.in": {
+    "balance": 760,
+    "vehicles": [{ "number": "UK06EF9876", "tag": "FAST9988" }],
+    "transactions": [
+      {
+        "date": "2025-11-02",
+        "vehicle": "UK06EF9876",
+        "amount": "200",
+        "status": "Success"
+      },
+      {
+        "date": "2025-10-22",
+        "vehicle": "UK06EF9876",
+        "amount": "150",
+        "status": "Success"
+      }
+    ]
+  }
+}

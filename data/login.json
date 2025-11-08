@@ -1,0 +1,13 @@
+[
+  {
+    "email": "john@example.com",
+    "password": "12345",
+    "username": "John"
+  },
+
+  {
+    "email": "admin@logiclead.in",
+    "password": "admin123",
+    "username": "Admin"
+  }
+]

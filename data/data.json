@@ -1,0 +1,148 @@
+{
+  "providers": [
+    {
+      "name": "Indian Highways Management",
+      "logo": "https://logiclead.in/assets/img/banking_logo/IHMCL-Logo.jpeg"
+    },
+    {
+      "name": "IndusInd Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/7fb9c4ae317ff5a843b86d86042f6597.jpg"
+    },
+    {
+      "name": "Bank of Baroda",
+      "logo": "https://logiclead.in/assets/img/banking_logo/eb55d100ee42369d2e984e3cb4758c76.jpg"
+    },
+    {
+      "name": "Axis Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/76aabd7ec028d2927d5af281e82d9394.jpg"
+    },
+    {
+      "name": "IDFC FIRST Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/2dad745c5f2fdd1f341fd31ef4937a50.jpg"
+    },
+    {
+      "name": "HDFC Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/3d0764bf519e0ae62a43f818f832ca11.jpg"
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/3adb17ad584e31a26d7f1119beb26c86.jpg"
+    },
+    {
+      "name": "IDBI Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/6efb93f54538ebaf6c5251bc7a42713c.jpg"
+    },
+    {
+      "name": "Jammu and Kashmir Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/55ba49c0871bbcfa6729799e4cdb466d.jpg"
+    },
+    {
+      "name": "Karnataka Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/15.webp"
+    },
+    {
+      "name": "Paytm Payments Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/8c6219ff367beac5f2730160a41aa897.jpg"
+    },
+    {
+      "name": "State Bank of India",
+      "logo": "https://logiclead.in/assets/img/banking_logo/0986338cc1bd9659da9133bb4fc783a6.jpg"
+    },
+    {
+      "name": "Federal Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/2a4242814a0f7cc956fc2d14c1c4af2c.jpg"
+    },
+    {
+      "name": "ICICI Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/13102943-icici-b9b38f77-216e-45f2-891b-edf7a7643433.webp"
+    },
+    {
+      "name": "Airtel Payments Bank",
+      "logo": "https://logiclead.in/assets/img/banking_logo/1.webp"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Super easy to use! Recharged my FASTag in under 30 seconds.",
+      "user": "Rahul "
+    },
+    {
+      "quote": "Clean interface and smooth experience. Highly recommend!",
+      "user": "Priya "
+    },
+    {
+      "quote": "No need to wait at tolls — I recharge before every trip easily.",
+      "user": "Aman "
+    }
+  ],
+
+  "faqs": [
+    {
+      "question": "What is FASTag?",
+      "answer": "FASTag is a prepaid tag fixed on your vehicle’s windscreen that enables automatic toll payment using RFID technology."
+    },
+    {
+      "question": "How can I recharge my FASTag?",
+      "answer": "Simply enter your vehicle/FASTag details, choose a recharge amount, select your payment method, and complete the payment."
+    },
+    {
+      "question": "What payment methods are accepted?",
+      "answer": "We support UPI, debit/credit cards, net banking, and popular digital wallets."
+    },
+    {
+      "question": "Is there any minimum recharge amount?",
+      "answer": "Yes, the minimum recharge depends on the issuing bank, but generally starts from ₹100."
+    },
+    {
+      "question": "How long does it take for the recharge to reflect?",
+      "answer": "Recharges are usually credited instantly, but in rare cases, may take up to 30 minutes."
+    }
+  ],
+  "about": {
+    "title": "About Us",
+    "subtitle": "Welcome to Logiclead, your trusted platform for FASTag recharge.",
+    "paragraph1": "We make it easy for vehicle owners to recharge their FASTag quickly and securely from anywhere.",
+    "paragraph2": "Our goal is to save your time at toll plazas by providing a smooth recharge experience with multiple payment options. With reliable service, exciting offers, and dedicated support, we are here to make your travel easier and more convenient.",
+    "image": "https://logiclead.in/assets/img/banking_logo/mactc8ig_fastag_625x300_17_February_25.jpg"
+  },
+  "vehicles": [
+    {
+      "vehicleNumber": "UK07 AB 1234",
+      "type": "Car",
+      "tagId": "FT12345678",
+      "balance": 450
+    },
+    {
+      "vehicleNumber": "DL05 XY 9876",
+      "type": "Truck",
+      "tagId": "FT98765432",
+      "balance": 300
+    },
+    {
+      "vehicleNumber": "UP32 CD 1122",
+      "type": "SUV",
+      "tagId": "FT55667788",
+      "balance": 520
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2025-11-01",
+      "vehicle": "UK07 AB 1234",
+      "amount": 100,
+      "status": "Success"
+    },
+    {
+      "date": "2025-10-28",
+      "vehicle": "UP32 CD 1122",
+      "amount": 200,
+      "status": "Success"
+    },
+    {
+      "date": "2025-10-25",
+      "vehicle": "DL05 XY 9876",
+      "amount": 150,
+      "status": "Failed"
+    }
+  ]
+}
